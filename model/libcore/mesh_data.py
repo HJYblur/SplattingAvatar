@@ -4,6 +4,11 @@
 import igl
 import numpy as np
 
+if not hasattr(igl, "read_obj") and hasattr(igl, "read_triangle_mesh"):
+    def read_obj(fn):
+        return igl.read_triangle_mesh(fn)
+    igl.read_obj = read_obj
+
 class MeshCpu:
     """
     - V: vertices

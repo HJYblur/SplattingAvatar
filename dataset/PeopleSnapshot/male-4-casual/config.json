@@ -1,0 +1,18 @@
+{
+	"gender": "male",
+	"train": {
+		"start": 0,
+		"end": 659,
+		"skip": 6
+	},
+	"val": {
+		"start": 660,
+		"end": 660,
+		"skip": 6
+	},
+	"test": {
+		"start": 660,
+		"end": 872,
+		"skip": 6
+	}
+}

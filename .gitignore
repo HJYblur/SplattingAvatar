@@ -12,3 +12,89 @@ data/
 model/imavatar/FLAME2020/
 model/simple_phongsurf/3rdparty/
 model/smplx_utils/smplx_models/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bytecode, caches
+.python-version
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+
+# CMake / native build artifacts (libigl, etc.)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+_deps/
+cp*-cp*-linux_*
+lib/
+*.o
+*.obj
+*.so
+*.a
+*.dll
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+*.pid
+
+# Model checkpoints, arrays, large binaries
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.dat
+
+# 3D assets / heavy media (ignore binary assets you don't want in Git)
+*.ply
+*.obj
+*.fbx
+*.dae
+*.stl
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+
+# Conda/misc (do not ignore environment.yaml if you want it tracked)
+# environment.yml
+environment_backup.yml
+
+# Submodule/build cruft
+libigl-python-bindings/
